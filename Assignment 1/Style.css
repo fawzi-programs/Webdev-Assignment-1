@@ -1,0 +1,237 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sign-in {
+    padding: 10px 20px;
+    background-color: #ccd9ff;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.sign-in:hover {
+    background-color: lightgreen;
+}
+
+
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:  #ccd9ff;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.banner-text {
+    max-width: 50%;
+}
+
+.banner img {
+    width: 300px;
+}
+
+.explore-btn {
+    padding: 10px 20px;
+    background-color: #669900 ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.explore-btn:hover {
+    background-color: darkgreen;
+}
+
+
+
+
+.vision {
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+}
+
+.card {
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.one { background-color: #ffcc99; }
+.two { background-color: #dff0d8; }
+.three { background-color: #ffcce6; }
+
+.learn-more {
+    padding: 10px;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.learn-more:hover {
+    background-color: black;
+}
+
+
+.quote-section {
+    background-image: url("images/quote-bg.png"); 
+    background-size: fill ;  
+    background-repeat: no-repeat;
+    background-position: left top ;
+    text-align: left;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    min-height: 250px; 
+}
+
+.quote-container {
+    max-width: 850px; 
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.news {
+    padding: 40px;
+}
+
+.news-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.news-card img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.read-more {
+    padding: 10px;
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.read-more:hover {
+    background: darkgreen;
+}
+
+
+
+
+.donate {
+    text-align: center;
+    padding: 40px;
+    background-color:  #e6f0ff;
+}
+
+.donation-options {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.donate-btn {
+    padding: 10px;
+    background: #f8f9fa;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.donate-btn:hover {
+    background: lightgray;
+}
+
+.donate-now {
+    padding: 10px;
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+
+.newsletter {
+    text-align: center;
+    padding: 40px;
+    background-color: #e6e6ff;
+}
+
+.newsletter input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.subscribe-btn {
+    padding: 10px;
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+
+
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.footer-icon {
+    width: 30px;  
+    height: auto;
+    transition: transform 0.3s; 
+}
+
+.footer-icon:hover {
+    transform: scale(1.1); 
+}
